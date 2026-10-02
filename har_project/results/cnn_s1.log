@@ -1,0 +1,29 @@
+[cnn] ep01 train_loss=0.3662 val_loss=0.3303 val_acc=0.9054
+[cnn] ep02 train_loss=0.1305 val_loss=0.4149 val_acc=0.9140
+[cnn] ep03 train_loss=0.1170 val_loss=0.3498 val_acc=0.9172
+[cnn] ep04 train_loss=0.1073 val_loss=0.4061 val_acc=0.9183
+[cnn] ep05 train_loss=0.1064 val_loss=0.3684 val_acc=0.9269
+[cnn] ep06 train_loss=0.0980 val_loss=0.3655 val_acc=0.9274
+[cnn] ep07 train_loss=0.0976 val_loss=0.4637 val_acc=0.9215
+[cnn] ep08 train_loss=0.0948 val_loss=0.4598 val_acc=0.9210
+[cnn] ep09 train_loss=0.0904 val_loss=0.4557 val_acc=0.9177
+[cnn] ep10 train_loss=0.0902 val_loss=0.4600 val_acc=0.9226
+[cnn] ep11 train_loss=0.0893 val_loss=0.4306 val_acc=0.9188
+[cnn] ep12 train_loss=0.0844 val_loss=0.4623 val_acc=0.9210
+[cnn] ep13 train_loss=0.0901 val_loss=0.3680 val_acc=0.9349
+[cnn] ep14 train_loss=0.0833 val_loss=0.4096 val_acc=0.9231
+[cnn] ep15 train_loss=0.0838 val_loss=0.4024 val_acc=0.9134
+[cnn] ep16 train_loss=0.0826 val_loss=0.4194 val_acc=0.9231
+[cnn] ep17 train_loss=0.0794 val_loss=0.4947 val_acc=0.9097
+[cnn] ep18 train_loss=0.0791 val_loss=0.4947 val_acc=0.9091
+[cnn] ep19 train_loss=0.0760 val_loss=0.4089 val_acc=0.9306
+[cnn] ep20 train_loss=0.0730 val_loss=0.4897 val_acc=0.9108
+[cnn] ep21 train_loss=0.0830 val_loss=0.3855 val_acc=0.9306
+early stop
+{
+ "accuracy": 0.9290804207668816,
+ "macro_precision": 0.9298837073871025,
+ "macro_recall": 0.9310768377487814,
+ "macro_f1": 0.9302411643148845
+}
+params 54086 time 40.4 s
