@@ -1,0 +1,50 @@
+data: /kaggle/input/datasets/rishab1011/har-dataset/preprocessed_har.npz
+seed=42 epochs<=30 patience=8 lr=0.001 bs=64 torch=2.10.0+cpu
+shapes: train (5551, 128, 9) val (1801, 128, 9) test (2947, 128, 9)
+params: 52870
+[lstm] ep01 train_loss=1.3214 val_loss=0.9353 val_acc=0.6158
+[lstm] ep02 train_loss=0.7484 val_loss=0.6267 val_acc=0.7085
+[lstm] ep03 train_loss=0.6274 val_loss=0.5550 val_acc=0.7524
+[lstm] ep04 train_loss=0.4960 val_loss=0.4372 val_acc=0.8612
+[lstm] ep05 train_loss=0.3039 val_loss=0.3950 val_acc=0.8767
+[lstm] ep06 train_loss=0.3211 val_loss=0.2188 val_acc=0.9489
+[lstm] ep07 train_loss=0.2293 val_loss=0.1685 val_acc=0.9561
+[lstm] ep08 train_loss=0.2458 val_loss=0.2252 val_acc=0.9373
+[lstm] ep09 train_loss=0.1982 val_loss=0.1662 val_acc=0.9672
+[lstm] ep10 train_loss=0.1611 val_loss=0.1828 val_acc=0.9584
+[lstm] ep11 train_loss=0.1500 val_loss=0.1976 val_acc=0.9506
+[lstm] ep12 train_loss=0.1648 val_loss=0.1771 val_acc=0.9167
+[lstm] ep13 train_loss=0.1455 val_loss=0.1820 val_acc=0.9500
+[lstm] ep14 train_loss=0.1581 val_loss=0.2132 val_acc=0.9417
+[lstm] ep15 train_loss=0.1510 val_loss=0.2623 val_acc=0.9323
+[lstm] ep16 train_loss=0.1333 val_loss=0.2078 val_acc=0.9561
+[lstm] ep17 train_loss=0.1805 val_loss=0.2683 val_acc=0.9267
+early stop
+train time: 263.0s
+TEST: {
+ "accuracy": 0.8785205293518833,
+ "macro_precision": 0.8895562034695836,
+ "macro_recall": 0.8783120671917822,
+ "macro_f1": 0.8777685344781991
+}
+[[462  26   7   0   1   0]
+ [ 31 411  29   0   0   0]
+ [  1  18 401   0   0   0]
+ [  4   1   1 308 177   0]
+ [  8   1   0  36 487   0]
+ [  0   0   0   0  17 520]]
+                    precision    recall  f1-score   support
+
+           WALKING       0.91      0.93      0.92       496
+  WALKING_UPSTAIRS       0.90      0.87      0.89       471
+WALKING_DOWNSTAIRS       0.92      0.95      0.93       420
+           SITTING       0.90      0.63      0.74       491
+          STANDING       0.71      0.92      0.80       532
+            LAYING       1.00      0.97      0.98       537
+
+          accuracy                           0.88      2947
+         macro avg       0.89      0.88      0.88      2947
+      weighted avg       0.89      0.88      0.88      2947
+
+
+Saved outputs to: /kaggle/working/results/lstm
