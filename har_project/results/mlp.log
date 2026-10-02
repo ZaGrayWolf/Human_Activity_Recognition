@@ -1,0 +1,26 @@
+[mlp] ep01 train_loss=1.0009 val_loss=0.5598 val_acc=0.8051
+[mlp] ep02 train_loss=0.5307 val_loss=0.3939 val_acc=0.8723
+[mlp] ep03 train_loss=0.4238 val_loss=0.3131 val_acc=0.9039
+[mlp] ep04 train_loss=0.3693 val_loss=0.2816 val_acc=0.9023
+[mlp] ep05 train_loss=0.3363 val_loss=0.2659 val_acc=0.9212
+[mlp] ep06 train_loss=0.3182 val_loss=0.2593 val_acc=0.9167
+[mlp] ep07 train_loss=0.2894 val_loss=0.2255 val_acc=0.9200
+[mlp] ep08 train_loss=0.2768 val_loss=0.2649 val_acc=0.9123
+[mlp] ep09 train_loss=0.2735 val_loss=0.2496 val_acc=0.9017
+[mlp] ep10 train_loss=0.2613 val_loss=0.2260 val_acc=0.9273
+[mlp] ep11 train_loss=0.2461 val_loss=0.2302 val_acc=0.9262
+[mlp] ep12 train_loss=0.2326 val_loss=0.2540 val_acc=0.9039
+[mlp] ep13 train_loss=0.2282 val_loss=0.2420 val_acc=0.9145
+[mlp] ep14 train_loss=0.2275 val_loss=0.2602 val_acc=0.9134
+[mlp] ep15 train_loss=0.2174 val_loss=0.2351 val_acc=0.9206
+[mlp] ep16 train_loss=0.2115 val_loss=0.2501 val_acc=0.9167
+[mlp] ep17 train_loss=0.2112 val_loss=0.2244 val_acc=0.9267
+[mlp] ep18 train_loss=0.2007 val_loss=0.2338 val_acc=0.9167
+early stop
+{
+ "accuracy": 0.832371903630811,
+ "macro_precision": 0.8411534529905548,
+ "macro_recall": 0.8273014046589685,
+ "macro_f1": 0.82884384188735
+}
+params 13382 time 2.4 s

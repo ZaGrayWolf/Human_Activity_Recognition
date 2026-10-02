@@ -1,0 +1,37 @@
+[mlp] ep01 train_loss=0.9579 val_loss=0.5711 val_acc=0.7894
+[mlp] ep02 train_loss=0.5333 val_loss=0.3894 val_acc=0.8530
+[mlp] ep03 train_loss=0.4169 val_loss=0.3343 val_acc=0.8744
+[mlp] ep04 train_loss=0.3697 val_loss=0.2798 val_acc=0.9039
+[mlp] ep05 train_loss=0.3279 val_loss=0.2654 val_acc=0.9109
+[mlp] ep06 train_loss=0.3083 val_loss=0.2553 val_acc=0.9034
+[mlp] ep07 train_loss=0.2856 val_loss=0.2553 val_acc=0.9109
+[mlp] ep08 train_loss=0.2685 val_loss=0.2382 val_acc=0.9115
+[mlp] ep09 train_loss=0.2592 val_loss=0.2455 val_acc=0.9161
+[mlp] ep10 train_loss=0.2462 val_loss=0.2543 val_acc=0.9057
+[mlp] ep11 train_loss=0.2385 val_loss=0.2480 val_acc=0.9126
+[mlp] ep12 train_loss=0.2293 val_loss=0.2416 val_acc=0.9097
+[mlp] ep13 train_loss=0.2219 val_loss=0.2339 val_acc=0.9167
+[mlp] ep14 train_loss=0.2115 val_loss=0.2292 val_acc=0.9144
+[mlp] ep15 train_loss=0.2066 val_loss=0.2363 val_acc=0.9120
+[mlp] ep16 train_loss=0.1999 val_loss=0.2260 val_acc=0.9120
+[mlp] ep17 train_loss=0.1916 val_loss=0.2272 val_acc=0.9178
+[mlp] ep18 train_loss=0.1859 val_loss=0.2334 val_acc=0.9213
+[mlp] ep19 train_loss=0.1868 val_loss=0.2383 val_acc=0.9068
+[mlp] ep20 train_loss=0.1811 val_loss=0.2257 val_acc=0.9167
+[mlp] ep21 train_loss=0.1736 val_loss=0.2248 val_acc=0.9120
+[mlp] ep22 train_loss=0.1722 val_loss=0.2254 val_acc=0.9225
+[mlp] ep23 train_loss=0.1727 val_loss=0.2187 val_acc=0.9271
+[mlp] ep24 train_loss=0.1697 val_loss=0.2422 val_acc=0.9178
+[mlp] ep25 train_loss=0.1712 val_loss=0.2328 val_acc=0.9167
+[mlp] ep26 train_loss=0.1659 val_loss=0.2174 val_acc=0.9201
+[mlp] ep27 train_loss=0.1603 val_loss=0.2244 val_acc=0.9167
+[mlp] ep28 train_loss=0.1509 val_loss=0.2482 val_acc=0.9144
+[mlp] ep29 train_loss=0.1578 val_loss=0.2154 val_acc=0.9265
+[mlp] ep30 train_loss=0.1546 val_loss=0.2384 val_acc=0.9178
+{
+ "accuracy": 0.834068544282321,
+ "macro_precision": 0.8351856869294557,
+ "macro_recall": 0.8293911635558565,
+ "macro_f1": 0.8300104977001381
+}
+params 13382 time 4.4 s
