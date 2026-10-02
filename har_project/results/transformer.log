@@ -1,0 +1,21 @@
+[transformer] ep01 train_loss=0.5577 val_loss=0.1434 val_acc=0.9728
+[transformer] ep02 train_loss=0.1908 val_loss=0.0853 val_acc=0.9917
+[transformer] ep03 train_loss=0.1637 val_loss=0.0975 val_acc=0.9783
+[transformer] ep04 train_loss=0.1540 val_loss=0.1086 val_acc=0.9722
+[transformer] ep05 train_loss=0.1569 val_loss=0.0662 val_acc=0.9933
+[transformer] ep06 train_loss=0.1346 val_loss=0.1065 val_acc=0.9750
+[transformer] ep07 train_loss=0.1254 val_loss=0.1152 val_acc=0.9756
+[transformer] ep08 train_loss=0.1314 val_loss=0.1059 val_acc=0.9722
+[transformer] ep09 train_loss=0.1295 val_loss=0.1194 val_acc=0.9733
+[transformer] ep10 train_loss=0.1300 val_loss=0.1305 val_acc=0.9745
+[transformer] ep11 train_loss=0.1296 val_loss=0.1807 val_acc=0.9684
+[transformer] ep12 train_loss=0.1166 val_loss=0.1985 val_acc=0.9689
+[transformer] ep13 train_loss=0.1119 val_loss=0.1035 val_acc=0.9711
+early stop
+{
+ "accuracy": 0.9110960298608755,
+ "macro_precision": 0.9149016943165426,
+ "macro_recall": 0.9103047394152198,
+ "macro_f1": 0.9104001459505465
+}
+params 72134 time 23.1 s
